@@ -51,5 +51,20 @@ public class Main {
         int[] massiv1 = {1, 2, 3};
         System.out.println(Arrays.toString(massiv1));
 
+        int[] s = {-1, -2, -3, -4, -5, -6};
+        for (int i = 0; i < s.length; i++) {
+            System.out.print(s[i]);
+            if (i != s.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = s.length - 1; i >= 0; i--) {
+            System.out.print(s[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+
     }
 }

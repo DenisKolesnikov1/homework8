@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        //1
+        //1.
         int[] massiv1 = {1, 2, 3};
         System.out.println(Arrays.toString(massiv1));
 
@@ -21,7 +21,7 @@ public class Main {
             }
         }
 
-        //2
+        //2.
         int[] massiv;
         massiv = new int[]{1, 2, 3};
         massiv[0] = 1;
@@ -38,7 +38,7 @@ public class Main {
         }
         System.out.println();
 
-        //3
+        //3.
         int[] ints ={1, 2, 3, 4, 5, 6};
         for (int i = 0; i < ints.length; i++) {
             System.out.print( ints[i]);
@@ -48,7 +48,7 @@ public class Main {
         }
         System.out.println();
 
-        //4
+        //4.
         int[] ints1 ={1, 2, 3, 4, 5, 6};
         for (int i = ints1.length -1; i >= 0; i--) {
             System.out.print(ints1[i]);

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hm8");
+        System.out.println("hm8");
 
         //Задача1.
         int[] massiv1 = {1, 2, 3};

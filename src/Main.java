@@ -22,14 +22,8 @@ public class Main {
             }
         }
 
+        System.out.println();
         //Задача2.
-        int[] massiv;
-        massiv = new int[]{1, 2, 3};
-        massiv[0] = 1;
-        massiv[1] = 2;
-        massiv[2] = 3;
-        System.out.println(Arrays.toString(massiv));
-
         double[] tiger = {1.57, 7.654, 9.986};
         for (int i = tiger.length - 1; i >= 0 ; i--) {
             System.out.print(tiger[i]);
@@ -59,13 +53,11 @@ public class Main {
         }
         System.out.println();
         double[] dog = {1.57, 7.654, 9.986};
-        for (int i = 0; i < dog.length; i++) {
+        for (int i = 0; i < dog.length; i = i+1) {
             System.out.print(dog[i]);
             if (i != ints.length - 1) {
                 System.out.print(",");
             }
         }
-        System.out.println();
-//
     }
 }

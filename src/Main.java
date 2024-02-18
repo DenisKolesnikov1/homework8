@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("hm8");
 
-        //Задача1.
+        //Задача1
         int[] massiv1 = {-1,-2,-3};
         System.out.println(Arrays.toString(massiv1));
 
@@ -39,7 +39,7 @@ public class Main {
 
         System.out.println();
 
-        //Задача3.
+        //Задача3
         int[] ints ={1,2,3,4,5,3,4,5,6};
         for (int i = ints.length - 1; i >= 0; i--) {
             System.out.print( ints[i]);
@@ -49,7 +49,7 @@ public class Main {
         }
         System.out.println();
 
-        //Задача4.
+        //Задача4
         int[] ints1 ={1,2,3};
         for (int i = 0; i < ints1.length; i++) {
             if (ints1[i] % 2 != 0) {
